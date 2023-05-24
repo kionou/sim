@@ -1,8 +1,121 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.container{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/heading-bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #37003c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+.table{
+ border: 1px solid white;
+  max-width: 70%;
+  width: 700px;
+  height: 400px;
+  padding: 10px;
+  color: white;
+}
+.table .table_header{
+  text-transform: uppercase;
+  text-align: center;
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+.table .table_content{
+  text-align: center;
+  border: 2px solid rgb(0, 119, 255);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #34033b;
+  margin-bottom: 5px;
+
+}
+.table_content .card_number{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 75px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+.table_content .card_logo{
+  /* border: 1px solid rgb(0, 119, 255); */
+  height: 100%;
+  width: 80px;
+  padding: 1px;
+  background-color: #54025B;
 }
 
-a {
-  color: #00B7FF;
+.card_logo img{
+  width: 100%;
+  height: 100%;
+
+}
+.table_content .card_name{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+
+}
+.table_content .card_point{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 78px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.table_content .card_but{
+  /* border: 1px solid rgb(212, 0, 255); */
+  height: 100%;
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: italic;
+  font-size: 17px;
+  
+}
+.table_content .card_competition{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 90px;
+  padding: 1px;
+}
+.card_competition img{
+  /* width: 100%; */
+  height: 100%;
+
 }
