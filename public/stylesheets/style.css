@@ -13,10 +13,10 @@ body{
   /* border: 1px solid red; */
   width: 100%;
   height: 100vh;
-  background-image: url("/images/heading-bg-desktop.svg");
+  background-image: url("/images/pl-footer-m-bottom.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: bottom;
   background-color: #37003c;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@ body{
  border: 1px solid white;
   max-width: 70%;
   width: 700px;
-  height: 400px;
+  height: auto;
   padding: 10px;
   color: white;
 }

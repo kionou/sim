@@ -1,0 +1,46 @@
+* {
+    color: inherit;
+    box-sizing: border-box;
+  }
+  
+  html {
+    --bg-clr: #121212;
+    --fg-clr: #E4E4E4;
+  }
+  
+  body {
+    margin: 0;
+    color: var(--fg-clr);
+    background: var(--bg-clr);
+    /* fix footer */
+    isolation: isolate;
+  }
+  
+  nav {
+    display: flex;
+    padding: 1em 2em;
+    top: 0;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    background: hsla(240,7%,97%,1);
+    color: var(--bg-clr);
+    z-index: 100;
+  }
+  
+  nav *, footer * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+  }
+  
+  nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+  }
