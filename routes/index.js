@@ -13,4 +13,24 @@ router.get('/match', function(req, res, next) {
   res.render('match',);
 });
 
+router.get('/serieA', function(req, res, next) {
+  res.render('serie',);
+});
+
+
+router.get('/seriebut', function(req, res, next) {
+  res.render('sbut',);
+});
+
+
+
+
+
+
+
+
+
+
+
+
 module.exports = router;
