@@ -22,6 +22,18 @@ router.get('/seriebut', function(req, res, next) {
   res.render('sbut',);
 });
 
+router.get('/seriematch', function(req, res, next) {
+  res.render('smatch',);
+});
+
+router.get('/competition', function(req, res, next) {
+  res.render('competition',);
+});
+
+router.get('/palette', function(req, res, next) {
+  res.render('palette',);
+});
+
 
 
 
