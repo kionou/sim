@@ -159,6 +159,7 @@ thead th {
     background-color: #2047e3;
     text-transform: capitalize;
     color: white;
+    border: 1px solid white;
 }
 
 
